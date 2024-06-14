@@ -5,7 +5,6 @@
 <h1>Microsoft Endpoint Configuration Manager (MECM/SCCM) Prerequisites and Installation</h1>
 This lab outlines the prerequisites and installation of Microsoft Endpoint Configuration Manager and the deployment of software on to a domain computer from a distribution point. The goal of this lab is to get hands on experience onboarding new users and setting up baseline application configuration for all computers on a domain.<br />
 
-
 <h2>Lab Environment</h2>
 <p>The lab environment provides you with an automatically provisioned virtual lab environment, including domain-joined desktop clients, a domain controller, an Internet gateway, and a fully configured Configuration Manager instance. The following products are included:</p>
 
@@ -17,7 +16,7 @@ This lab outlines the prerequisites and installation of Microsoft Endpoint Confi
 <h2>Video Tutorial</h2>
 <p>
 Work in Progress
-<-- <img src="https://github.com/ronnydiggs/SCCM/assets/64152064/6842b8d8-eb69-421e-959f-a8fa5d20b3ea" width="500"/> -->
+<!-- <img src="https://github.com/ronnydiggs/SCCM/assets/64152064/6842b8d8-eb69-421e-959f-a8fa5d20b3ea" width="500"/> -->
 </p>
 <p>
   
@@ -45,6 +44,7 @@ Work in Progress
 
 <br />
 
+<h2>Create Package from Definition</h2>
 <p>
 7. We want a package from definition because want to download a specific package software. In this lab, we will be using msi files. From HYD-CM1, inside MECM go to software library -> applications management -> packages -> create packages from definition.</p>
 <p>
@@ -56,7 +56,7 @@ Work in Progress
 <p>
 10. Click next, confirm the configurations and close the wizard. The msi file should be visible in the packages window.
 </p>
-
+<h2>Deploy Package</h2>
 <p>
 11. From the packages window, right-click the desired package and click deploy. 
 </p>
