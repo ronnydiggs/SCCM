@@ -34,8 +34,9 @@ This tutorial outlines the prerequisites and installation of Microsoft Endpoint 
 - HYD-CLIENT1
 </p>
 <p>
-5. From HYD-CM1, open Microsoft Configuration Manager.  
+5. From HYD-CM1, locate the Client folder in the Microsoft Configuration Manager folder in the C drive and copy it into HYD-DC1.  
 </p>
+<p>6. Copy the client folder into the C drive and install the ccmsetup.exe to get access to Software Center.</p>
 <br />
 
 <p>
