@@ -34,16 +34,30 @@ This tutorial outlines the prerequisites and installation of Microsoft Endpoint 
 - HYD-CLIENT1
 </p>
 <p>
-5. From HYD-CM1, locate the Client folder in the Microsoft Configuration Manager folder in the C drive and copy it into HYD-DC1.  
+5. From HYD-CM1, locate the Client folder in the Microsoft Configuration Manager folder in the C drive and copy it into HYD-CLIENT1.  
 </p>
-<p>6. Copy the client folder into the C drive and install the ccmsetup.exe to get access to Software Center.</p>
+<p>6. Copy the client folder into the C drive using \\CLIENT1\c$ in file explorer and install the ccmsetup.exe to get access to Software Center.</p>
+
 <br />
 
 <p>
-<img src="https://github.com/ronnydiggs/configure-ad/assets/64152064/56d83058-1c1d-4776-9aa5-bce8f669680f" width="500"/>
+7. We want a package from definition because want to download a specific package software. In this lab, we will be using msi files. From HYD-CM1, inside MECM go to software library -> applications management -> packages -> create packages from definition.</p>
+<p>
+8. Download any msi file you need for your company. Store the downloads into a package folder for organization. Add permissions for Domain Users and Domain Computers to read, execute in the packages folder. This allows for all computers and users on the domain to be able to access and install the programs from the software center.
 </p>
 <p>
-Use the same resource group AD-Lab and select the image as Windows 10 Pro. 
+9. Click create a package from definition -> browse for desired file, next -> Select always obtain source files from source folder, next ->  Copy the network path of the msi file and use it as the package source folder. \\CM1\Packages$\putty
+</p>
+<p>
+10. Click next, confirm the configurations and close the wizard. The msi file should be visible in the packages window.
+</p>
+<p>
+11. From the packages window, right-click the desired package and click deploy. 
+In the General tab, under software select per system unattended and under collection select all desktop and server clients.
+In the Contents tab, add CM1.corp.contoso.com as the distribution point.
+In the Deployment Settings tab, choose a desired off-hour schedule for installs and updates to not affect business production. For the purposes of this lab, leave scheduling and user experience default.
+In the Distribution Points tab, select "Download content from distribution point and run locally" and "Do not run program"
+Confirm the settings and deploy.
 </p>
 <br />
 
