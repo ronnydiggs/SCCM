@@ -1,11 +1,9 @@
-# SCCM
-
 <p align="center">
 <img src="https://github.com/ronnydiggs/SCCM/assets/64152064/6842b8d8-eb69-421e-959f-a8fa5d20b3ea" width="500"/>
 </p>
 
 <h1>Microsoft Endpoint Configuration Manager (MECM/SCCM) - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of Microsoft Endpoint Configuration Manager. The goal of this lab is to learn data migration and software configuration.<br />
+This lab outlines the prerequisites and installation of Microsoft Endpoint Configuration Manager and the deployment of software on to a domain computer from a distribution point. The goal of this lab is to get hands on experience onboarding new users and setting up baseline application configuration for all computers on a domain.<br />
 
 
 <h2>Lab Environment</h2>
