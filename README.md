@@ -14,6 +14,13 @@ This lab outlines the prerequisites and installation of Microsoft Endpoint Confi
 - Windows Assessment and Deployment Kit for Windows 11
 - Windows Server 2022 
 
+<h2>Video Tutorial</h2>
+<p>
+Work in Progress
+<-- <img src="https://github.com/ronnydiggs/SCCM/assets/64152064/6842b8d8-eb69-421e-959f-a8fa5d20b3ea" width="500"/> -->
+</p>
+<p>
+  
 <h2>Installation Steps</h2>
 
 <p>
@@ -68,10 +75,7 @@ This lab outlines the prerequisites and installation of Microsoft Endpoint Confi
 </p>
 <br />
 
-<p>
-<img src="https://github.com/ronnydiggs/SCCM/assets/64152064/6842b8d8-eb69-421e-959f-a8fa5d20b3ea" width="500"/>
-</p>
-<p>
+
 
 </p>
 <br />
