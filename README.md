@@ -46,7 +46,7 @@ Work in Progress
 
 <h2>Create Package from Definition</h2>
 <p>
-7. We want a package from definition because want to download a specific package software. In this lab, we will be using msi files. From HYD-CM1, inside MECM go to software library -> applications management -> packages -> create packages from definition.</p>
+7. We want a package from definition because want to download a specific package software. In this lab, we will be using msi files. </p><p>From HYD-CM1, inside MECM go to software library -> applications management -> packages -> create packages from definition.</p>
 <p>
 8. Download any msi file you need for your company. Store the downloads into a package folder for organization. Add permissions for Domain Users and Domain Computers to read, execute in the packages folder. This allows for all computers and users on the domain to be able to access and install the programs from the software center.
 </p>
