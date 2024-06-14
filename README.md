@@ -26,6 +26,16 @@ This tutorial outlines the prerequisites and installation of Microsoft Endpoint 
 </p>
 <p>
 3. Unzip into desired folder and directory and run the setup.exe</p>
+<p>
+4. Once the setup is complete, open Hyper-V Manager and connect to these virtual machines:
+
+- HYD-CM1
+- HYD-DC1
+- HYD-CLIENT1
+</p>
+<p>
+5. From HYD-CM1, open Microsoft Configuration Manager.  
+</p>
 <br />
 
 <p>
