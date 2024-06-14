@@ -51,13 +51,22 @@ This tutorial outlines the prerequisites and installation of Microsoft Endpoint 
 <p>
 10. Click next, confirm the configurations and close the wizard. The msi file should be visible in the packages window.
 </p>
+
 <p>
 11. From the packages window, right-click the desired package and click deploy. 
-In the General tab, under software select per system unattended and under collection select all desktop and server clients.
-In the Contents tab, add CM1.corp.contoso.com as the distribution point.
-In the Deployment Settings tab, choose a desired off-hour schedule for installs and updates to not affect business production. For the purposes of this lab, leave scheduling and user experience default.
-In the Distribution Points tab, select "Download content from distribution point and run locally" and "Do not run program"
-Confirm the settings and deploy.
+</p>
+<p>
+  
+- In the General tab, under software select per system unattended and under collection select all desktop and server clients.
+- In the Contents tab, add CM1.corp.contoso.com as the distribution point.
+- In the Deployment Settings tab, choose a desired off-hour schedule for installs and updates to not affect business production. For the purposes of this lab, leave scheduling and user experience default.
+- In the Distribution Points tab, select "Download content from distribution point and run locally" and "Do not run program."
+- Confirm the settings and deploy. 
+</p>
+<p>
+12. In the HYD-CLIENT1, go to Control Panel, configuration manager, click the actions tab. Run all the cycles in the action tab. This speeds up the client cycle so that the package will show up in the software center quicker.</p>
+<p>
+13. Go to Software Center, select the application you want to install. Once installed, the application will be available for any user on the computer. 
 </p>
 <br />
 
