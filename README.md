@@ -8,28 +8,24 @@
 This tutorial outlines the prerequisites and installation of Microsoft Endpoint Configuration Manager. The goal of this lab is to learn data migration and software configuration.<br />
 
 
-<h2>Environments and Technologies Used</h2>
+<h2>Lab Environment</h2>
+<p>The lab environment provides you with an automatically provisioned virtual lab environment, including domain-joined desktop clients, a domain controller, an Internet gateway, and a fully configured Configuration Manager instance. The following products are included:</p>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Domain Controller Server
-- MECM/SCCM 2203 Server
-- SQL Server 2019
-- MS SQL Management Studio
-- Windows ADK and Windows PE add-on
-
-<h2>Operating Systems Used </h2>
-
-- 2 Windows Server 2022</b>
+- Windows 11 Enterprise, Version 22H2
+- Microsoft Configuration Manager, Version 2211
+- Windows Assessment and Deployment Kit for Windows 11
+- Windows Server 2022 
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://github.com/ronnydiggs/configure-ad/assets/64152064/d43d6f73-1b9d-4b84-9dc8-14ee5caa44b5" width="500"/>
+1. Enable Hyper-V from Windows Features. Make sure all boxes are checked within the Hyper-V tab. Restart the computer.
 </p>
 <p>
-Name the resource group AD-Lab and select the image as Windows Server 2022. Create the Virtual Machine for the Domain Controller. 
+2. Download the lab environment from here: https://www.microsoft.com/en-us/evalcenter/download-mem-evaluation-lab-kit 
 </p>
+<p>
+3. Unzip into desired folder and directory and run the setup.exe</p>
 <br />
 
 <p>
