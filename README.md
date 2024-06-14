@@ -20,7 +20,7 @@ Work in Progress
 </p>
 <p>
   
-<h2>Installation Steps</h2>
+<h2>Installation</h2>
 
 <p>
 1. Enable Hyper-V from Windows Features. Make sure all boxes are checked within the Hyper-V tab. Restart the computer.
